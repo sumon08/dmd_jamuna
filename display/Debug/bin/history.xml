@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=display.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\display -TC:\CooCox\CoIDE\configuration\ProgramData\display/arm-gcc-link.ld -g">
+      <target file="display.elf" lastModified="15df5dcf3f9">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="15df47ca99b"/>
+         <source file="..\obj\dmd.o" lastModified="15df47caa0f"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15df47caae9"/>
+         <source file="..\obj\temp.o" lastModified="15df47cab2c"/>
+         <source file="..\obj\rtc.o" lastModified="15df47cab91"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15df47cabd6"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15df47cac59"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="15df47cac1a"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15df47cacad"/>
+         <source file="..\obj\main.o" lastModified="15df5dcf1e5"/>
+         <source file="..\obj\font.o" lastModified="15df47cad75"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="15df47cadba"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15df47cae2e"/>
+         <source file="..\obj\gpio.o" lastModified="15df47cae91"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="15df47caed6"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15df47caf3a"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15df47cafae"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15df47cb012"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="15df47cb076"/>
+         <source file="..\obj\dma.o" lastModified="15df48ae635"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="15df47cb119"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="15df47cb15d"/>
+      </target>
+   </processor>
+</history>

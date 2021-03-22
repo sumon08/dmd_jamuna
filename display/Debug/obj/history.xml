@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source\gpio -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\stm_lib -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source\rtc -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source\dmd\font -I..\..\..\..\..\Users\Asus\Google Drive\jamuna -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\stm_lib\inc -I..\..\..\..\..\Users\Asus\Google Drive -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\cmsis -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source\dma -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\cmsis_boot -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source\dmd -I..\..\..\..\..\Users\Asus\Google Drive\jamuna\source\temp">
+      <target file="gpio.o" lastModified="15df47cae91">
+         <source file="..\..\..\source\gpio\gpio.c" lastModified="15d7af296e8"/>
+      </target>
+      <target file="temp.o" lastModified="15df47cab2c">
+         <source file="..\..\..\source\temp\temp.c" lastModified="15dccd7a1b0"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="15df47cb15d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="15c360e3218"/>
+      </target>
+      <target file="stm32f10x_crc.o" lastModified="15df47cadba">
+         <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="15bf26bd1a0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15df47cae2e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bf26ba6a8"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="15df47cac1a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15c0d073090"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="15df47cb076">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15d75b5b548"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="15df47cac59">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15dd2620ee0"/>
+      </target>
+      <target file="dmd.o" lastModified="15df47caa0f">
+         <source file="..\..\..\source\dmd\dmd.c" lastModified="15d613c2d40"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="15df47cb119">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="15c0d178440"/>
+      </target>
+      <target file="rtc.o" lastModified="15df47cab91">
+         <source file="..\..\..\source\rtc\rtc.c" lastModified="15de1c3eca0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15df47cacad">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bf26ba6a8"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="15df47ca99b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="15c0d073090"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="15df47caed6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="15d7ac919d0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15df47cabd6">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bf26b73e0"/>
+      </target>
+      <target file="font.o" lastModified="15df47cad75">
+         <source file="..\..\..\source\dmd\font.c" lastModified="15c0fbb4088"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="15df47caae9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15bf26baa90"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="15df47caf3a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15d8a456530"/>
+      </target>
+      <target file="dma.o" lastModified="15df48ae635">
+         <source file="..\..\..\source\dma\dma.c" lastModified="15df48ae324"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="15df47cb012">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15bf26bba30"/>
+      </target>
+      <target file="main.o" lastModified="15df5dcf1e5">
+         <source file="..\..\..\main.c" lastModified="15df5dcd427"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15df47cafae">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bf26ba6a8"/>
+      </target>
+   </processor>
+</history>
